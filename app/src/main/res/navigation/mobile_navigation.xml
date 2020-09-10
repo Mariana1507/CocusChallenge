@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@layout/currentmembers_fragment">
+
+    <fragment
+        android:id="@+id/currentMembers"
+        android:name="com.example.cocuschallenge.members.CurrentMembers"
+        android:label="current_members_fragment"
+        tools:layout="@layout/current_members_fragment" />
+    <fragment
+        android:id="@+id/completedChallenge"
+        android:name="com.example.cocuschallenge.list.completedChallenge"
+        android:label="completed_challenge_fragment"
+        tools:layout="@layout/completed_challenge_fragment" />
+    <fragment
+        android:id="@+id/authoredChallenge"
+        android:name="com.example.cocuschallenge.list.authoredChallenge"
+        android:label="authored_challenge_fragment"
+        tools:layout="@layout/authored_challenge_fragment" />
+
+</navigation>

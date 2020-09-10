@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/i_complete"
+        android:icon="@drawable/ic_baseline_check_box_24"
+        android:title="Completed challenges" />
+    <item
+        android:id="@+id/i_authored"
+        android:icon="@drawable/ic_baseline_collections_bookmark_24"
+        android:title="Authored challenges" />
+</menu>
